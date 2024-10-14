@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LanguageManager-iOS'
-  s.version          = '1.2.9'
+  s.version          = '1.3.0'
   s.summary          = 'Language manager used to handle change app language'
 
   s.description      = <<-DESC
@@ -23,8 +23,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
 
   s.ios.deployment_target = '9.0'
-  s.tvos.deployment_target = '13.0'
 
   s.source_files = 'LanguageManager-iOS/Classes/**/*'
-  s.resource_bundles = {"LanguageManager-iOS" => ["Resources/PrivacyInfo.xcprivacy"]}
+  s.resource_bundles = {"LanguageManager-iOS" => ["LanguageManager-iOS/Resources/PrivacyInfo.xcprivacy"]}
 end
