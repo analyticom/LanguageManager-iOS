@@ -1,0 +1,2 @@
+#!/bin/sh
+pod repo push analyticom-analyticom-podspec LanguageManager-iOS.podspec --allow-warnings
