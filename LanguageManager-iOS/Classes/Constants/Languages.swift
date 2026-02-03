@@ -23,5 +23,6 @@ public enum Languages: String {
   case es419 = "es-419"
   case ptPT = "pt-PT"
   case ruBY = "ru-BY"
+  case island = "is"
   case deviceLanguage
 }
